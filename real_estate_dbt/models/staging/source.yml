@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: raw_data
+    database: real_estate_db  # This must match your Snowflake database name
+    schema: real_estate_schema  # This must match your Snowflake schema name
+    tables:
+      - name: real_estate_mar2026  # This must match your Snowflake table name
